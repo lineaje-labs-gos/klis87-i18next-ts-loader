@@ -1,6 +1,6 @@
 {
   "name": "i18next-ts-loader",
-  "version": "0.6.0",
+  "version": "0.6.0-lineaje-01",
   "description": "Webpack loader for i18next with the best developer experience",
   "main": "src/index.js",
   "repository": "git@github.com:klis87/i18next-ts-loader.git",
@@ -23,6 +23,12 @@
     "prettier": "2.6.2"
   },
   "dependencies": {
-    "loader-utils": "3.2.0"
+    "loader-utils": ">=3.3.1"
+  },
+  "overrides": {
+    "loader-utils": ">=3.3.1"
+  },
+  "resolutions": {
+    "loader-utils": ">=3.3.1"
   }
 }
