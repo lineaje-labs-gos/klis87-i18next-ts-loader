@@ -1,11 +1,20 @@
 {
   "name": "i18next-ts-loader",
-  "version": "0.5.0",
+  "version": "0.5.0-lineaje-01",
   "description": "Webpack loader for i18next with the best developer experience",
   "main": "src/index.js",
-  "repository": "git@github.com:klis87/i18next-ts-loader.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lineaje-labs-gos/klis87-i18next-ts-loader"
+  },
   "author": "Konrad Lisiczynski <klisiczynski@gmail.com>",
   "license": "MIT",
+  "contributors": [
+    {
+      "name": "Lineaje DepFixer",
+      "email": "221268890+Lineaje-DepFixer@users.noreply.github.com"
+    }
+  ],
   "keywords": [
     "webpack",
     "i18next"
